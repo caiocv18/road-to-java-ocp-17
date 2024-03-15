@@ -1,6 +1,5 @@
 # Default ignored files
 /shelf/
-/.idea/workspace.xml
 
 # Editor-based HTTP Client requests
 /httpRequests/
@@ -13,7 +12,7 @@
 /copilot/chatSessions
 
 # Files .class
-.out/
+/out/
 
 # IntelliJ IDEA
-.idea/
+/.idea
