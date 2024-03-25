@@ -19,7 +19,7 @@ import java.util.stream.*;
 
 public class LineNumbering {
     public static List<String> number(List<String> lines) {
-		List<String> linesWithNumber = new ArrayList<String>();
+		List<String> linesWithNumber = new ArrayList<>();
 		int lineCounter = 0;
 		for(String line : lines){
 			linesWithNumber.add(lineCounter + ": " + line);
