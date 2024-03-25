@@ -20,10 +20,10 @@ import java.util.stream.*;
 public class LineNumbering {
     public static List<String> number(List<String> lines) {
 		List<String> linesWithNumber = new ArrayList<String>();
-		int i = 1;
+		int lineCounter = 0;
 		for(String line : lines){
-			linesWithNumber.add(i + ": " + line);
-			i++;
+			linesWithNumber.add(lineCounter + ": " + line);
+			lineCounter++;
 		}
         return linesWithNumber;
     }
