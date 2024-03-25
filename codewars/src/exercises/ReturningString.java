@@ -8,9 +8,9 @@ Make a function that will return a greeting statement that uses an input; your p
 [Make sure you type the exact thing I wrote or the program may not execute properly]
 */
 
-public class Kata{
+public class ReturningString {
 	public static void main(String... args){
-		System.out.println(Kata.greet("Caio"));
+		System.out.println(ReturningString.greet("Caio"));
 	}
 	
 	public static String greet(String name){
